@@ -95,6 +95,26 @@ async def shutdown_event():
     """
     logger.info("Shutting down Weather Prediction API")
 
+# ==================== ROOT ENDPOINT ====================
+
+@app.get("/")
+async def root():
+    """
+    Root endpoint - API information
+    """
+    return {
+        "service": "Farmer Assistant - Weather Prediction API",
+        "version": "1.0.0",
+        "description": "LSTM-based weather forecasting for Bangalore & surrounding districts",
+        "endpoints": {
+            "health": "/health",
+            "forecast_30_days": "/predict/next-month",
+            "forecast_specific_date": "/predict/specific-date/{date}",
+            "docs": "/docs",
+            "openapi_schema": "/openapi.json"
+        }
+    }
+
 # ==================== HEALTH CHECK ====================
 
 @app.get("/health")
