@@ -1,0 +1,9 @@
+INFO:     Started server process [9276]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Multi-Location Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.

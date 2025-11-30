@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+*.db
+trained_models/*.h5
+trained_models/*.pkl
+data/*.csv
+.DS_Store

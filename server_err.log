@@ -1,0 +1,416 @@
+INFO:     Will watch for changes in these directories: ['C:\\AiSolutionsFrontend\\ai-farmer-backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6176] using StatReload
+INFO:     Started server process [5860]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Weather Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'quick_test.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5860]
+INFO:     Started server process [8180]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Weather Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:main:Generating forecast for Bangalore North (13.05, 77.6)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Bangalore North
+INFO:main:Generating forecast for Bangalore North (13.05, 77.6)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Bangalore North
+INFO:main:Generating forecast for Bangalore South (12.92, 77.6)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Bangalore South
+INFO:main:Generating forecast for Chintamani (13.35, 78.05)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Chintamani
+WARNING:  StatReload detected changes in 'test_multilocation_api.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8180]
+WARNING:  StatReload detected changes in 'test_multilocation_api.py'. Reloading...
+INFO:     Started server process [1780]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Weather Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:main:Shutting down Weather Prediction API
+ERROR:    Traceback (most recent call last):
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [9688]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Weather Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:main:Generating forecast for Bangalore North (13.05, 77.6)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Bangalore North
+INFO:main:Generating forecast for Bangalore South (12.92, 77.6)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Bangalore South
+INFO:main:Generating forecast for Chintamani (13.35, 78.05)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Chintamani
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9688]
+Process SpawnProcess-5:
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\multiprocessing\process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Program Files\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\uvicorn\server.py", line 71, in serve
+    await self._serve(sockets)
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\uvicorn\server.py", line 78, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\uvicorn\config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\uvicorn\importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "C:\Program Files\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\main.py", line 84
+    logger.info(f"\u2713 Predictor in
+                ^
+SyntaxError: unterminated f-string literal (detected at line 84)
+WARNING:  StatReload detected changes in 'main_old.py'. Reloading...
+ERROR:    Error loading ASGI app. Could not import module "main".
+WARNING:  StatReload detected changes in 'main_old.py'. Reloading...
+ERROR:    Error loading ASGI app. Could not import module "main".
+WARNING:  StatReload detected changes in 'main_old.py'. Reloading...
+ERROR:    Error loading ASGI app. Could not import module "main".
+WARNING:  StatReload detected changes in 'models\main.py'. Reloading...
+WARNING:  StatReload detected changes in 'models\main.py'. Reloading...
+INFO:     Started server process [14376]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Weather Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:main:Shutting down Weather Prediction API
+ERROR:    Traceback (most recent call last):
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\.venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:     Started server process [3748]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Weather Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'models\main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3748]
+INFO:     Started server process [15644]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Weather Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:main:Generating forecast for string (0.0, 0.0)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for string
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15644]
+INFO:     Started server process [14216]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Multi-Location Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14216]
+WARNING:  StatReload detected changes in 'tmp_api_check.py'. Reloading...
+INFO:     Started server process [5848]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Multi-Location Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:main:Generating forecast for Bangalore North (13.05, 77.6)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+ERROR:main:\u2717 Error generating forecast: 'MultiLocationPredictor' object has no attribute 'predict_next_month'
+Traceback (most recent call last):
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\main.py", line 171, in get_30_day_forecast
+    predictions = predictor.predict_next_month(historical_df)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MultiLocationPredictor' object has no attribute 'predict_next_month'
+WARNING:  StatReload detected changes in 'modules\multi_location_predictor.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5848]
+INFO:     Started server process [9292]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Multi-Location Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:main:Generating forecast for Bangalore North (13.05, 77.6)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+ERROR:main:\u2717 Error generating forecast: 'MultiLocationPredictor' object has no attribute 'predict_next_month'
+Traceback (most recent call last):
+  File "C:\AiSolutionsFrontend\ai-farmer-backend\main.py", line 171, in get_30_day_forecast
+    predictions = predictor.predict_next_month(historical_df)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MultiLocationPredictor' object has no attribute 'predict_next_month'
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9292]
+INFO:     Started server process [16828]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Multi-Location Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:main:Generating forecast for Bangalore North (13.05, 77.6)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Bangalore North
+WARNING:  StatReload detected changes in 'convert_models_to_keras.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16828]
+INFO:     Started server process [15908]
+INFO:     Waiting for application startup.
+INFO:main:Initializing Multi-Location Predictor...
+INFO:main:\u2713 Predictor initialized successfully
+INFO:     Application startup complete.
+INFO:main:Generating forecast for Hosakote (13.45, 77.77)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Hosakote
+INFO:main:Generating forecast for Doddaballapura (12.9, 77.32)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Doddaballapura
+INFO:main:Generating forecast for Devanahalli (13.18, 77.85)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Devanahalli
+INFO:main:Generating forecast for Nelamangala (13.27, 77.45)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Nelamangala
+INFO:main:Generating forecast for Bangalore South (12.92, 77.6)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000244D6C322A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000244D6C322A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:main:\u2713 Forecast generated successfully for Bangalore South
+INFO:main:Generating forecast for Bangalore East (13.0, 77.65)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000244D58B6FC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000244D58B6FC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:main:\u2713 Forecast generated successfully for Bangalore East
+INFO:main:Generating forecast for Yelahanka (13.08, 77.58)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Yelahanka
+INFO:main:Generating forecast for Anekal (12.72, 77.65)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Anekal
+INFO:main:Generating forecast for Bangarapet (13.33, 78.2)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Bangarapet
+INFO:main:Generating forecast for Doddaballapura (12.9, 77.32)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Doddaballapura
+INFO:main:Generating forecast for Doddaballapura (12.9, 77.32)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Doddaballapura
+INFO:main:Generating forecast for Yelahanka (13.08, 77.58)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Yelahanka
+INFO:main:Generating forecast for Hosakote (13.45, 77.77)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Hosakote
+INFO:main:Generating forecast for Hosakote (13.45, 77.77)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Hosakote
+INFO:main:Generating forecast for Doddaballapura (12.9, 77.32)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Doddaballapura
+INFO:main:Generating forecast for Hosakote (13.45, 77.77)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Hosakote
+INFO:main:Generating forecast for Doddaballapura (12.9, 77.32)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Doddaballapura
+INFO:main:Generating forecast for Hosakote (13.45, 77.77)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Hosakote
+INFO:main:Generating forecast for Nelamangala (13.27, 77.45)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Nelamangala
+INFO:main:Generating forecast for Devanahalli (13.18, 77.85)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Devanahalli
+INFO:main:Generating forecast for Yelahanka (13.08, 77.58)
+INFO:main:Loading historical weather data...
+INFO:main:Loaded 1096 historical records
+INFO:main:Generating 30-day forecast...
+INFO:main:\u2713 Forecast generated successfully for Yelahanka
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:main:Shutting down Weather Prediction API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15908]

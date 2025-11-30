@@ -1,0 +1,1933 @@
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+ [OK] Model loaded (weights restored) from models\lstm_weather_model.h5
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[OK] Model loaded (weights restored) from models\lstm_weather_model.h5
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:60899 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:60920 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:60922 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:60924 - "POST /predict/next-month HTTP/1.1" 200 OK
+  Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[OK] Model loaded (weights restored) from models\lstm_weather_model.h5
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[OK] Model loaded (weights restored) from models\lstm_weather_model.h5
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:61001 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:61003 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:61005 - "POST /predict/next-month HTTP/1.1" 200 OK
+      Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[OK] Model loaded (weights restored) from models\lstm_weather_model.h5
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+ [OK] Model loaded (weights restored) from models\lstm_weather_model.h5
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[OK] Model loaded (weights restored) from models\lstm_weather_model.h5
+INFO:     127.0.0.1:61755 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /openapi.json HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:61760 - "POST /predict/next-month HTTP/1.1" 200 OK
+ 
+Loading location-specific models...
+Found 20 models in models\locations
+[ERR] Error loading model for anekal: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bagepalli: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bangalore_east: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bangalore_north: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bangalore_south: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bangarapet: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for chikkaballapura: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for chintamani: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for devanahalli: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for doddaballapura: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for gauribidanur: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for gudibanda: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for hosakote: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for kolar: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for malur: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for mulbagal: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for nelamangala: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for sidlaghatta: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for srinivaspur: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for yelahanka: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[OK] Loaded 0 location models
+ 
+Loading location-specific models...
+Found 20 models in models\locations
+[ERR] Error loading model for anekal: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bagepalli: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bangalore_east: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bangalore_north: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bangalore_south: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for bangarapet: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for chikkaballapura: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for chintamani: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for devanahalli: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for doddaballapura: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for gauribidanur: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for gudibanda: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for hosakote: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for kolar: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for malur: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for mulbagal: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for nelamangala: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for sidlaghatta: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for srinivaspur: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[ERR] Error loading model for yelahanka: Could not locate function 'mse'. Make sure custom classes are decorated with `@keras.saving.register_keras_serializable()`. Full object config: {'module': 'keras.metrics', 'class_name': 'function', 'config': 'mse', 'registered_name': 'mse'}
+[OK] Loaded 0 location models
+INFO:     127.0.0.1:61918 - "GET /health HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:61923 - "POST /predict/next-month HTTP/1.1" 500 Internal Server Error
+ 
+Loading location-specific models...
+Found 20 models in models\locations
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for anekal (fallback)
+[OK] Loaded model for anekal
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_1"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_3 (LSTM)                   | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_3 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_4 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_4 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_5 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_5 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_1 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_1 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bagepalli (fallback)
+[OK] Loaded model for bagepalli
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_2"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_6 (LSTM)                   | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_6 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_7 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_7 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_8 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_8 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_2 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_2 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangalore_east (fallback)
+[OK] Loaded model for bangalore_east
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_3"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_9 (LSTM)                   | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_9 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_10 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_10 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_11 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_11 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_3 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_3 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangalore_north (fallback)
+[OK] Loaded model for bangalore_north
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_4"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_12 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_12 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_13 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_13 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_14 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_14 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_4 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_4 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangalore_south (fallback)
+[OK] Loaded model for bangalore_south
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_5"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_15 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_15 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_16 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_16 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_17 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_17 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_5 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_5 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangarapet (fallback)
+[OK] Loaded model for bangarapet
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_6"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_18 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_18 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_19 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_19 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_20 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_20 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_6 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_6 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for chikkaballapura (fallback)
+[OK] Loaded model for chikkaballapura
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_7"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_21 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_21 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_22 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_22 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_23 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_23 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_7 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_7 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for chintamani (fallback)
+[OK] Loaded model for chintamani
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_8"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_24 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_24 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_25 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_25 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_26 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_26 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_8 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_8 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for devanahalli (fallback)
+[OK] Loaded model for devanahalli
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_9"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_27 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_27 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_28 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_28 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_29 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_29 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_9 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_9 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for doddaballapura (fallback)
+[OK] Loaded model for doddaballapura
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_10"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_30 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_30 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_31 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_31 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_32 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_32 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_10 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_10 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for gauribidanur (fallback)
+[OK] Loaded model for gauribidanur
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_11"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_33 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_33 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_34 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_34 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_35 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_35 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_11 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_11 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for gudibanda (fallback)
+[OK] Loaded model for gudibanda
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_12"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_36 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_36 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_37 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_37 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_38 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_38 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_12 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_12 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for hosakote (fallback)
+[OK] Loaded model for hosakote
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_13"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_39 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_39 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_40 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_40 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_41 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_41 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_13 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_13 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for kolar (fallback)
+[OK] Loaded model for kolar
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_14"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_42 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_42 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_43 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_43 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_44 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_44 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_14 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_14 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for malur (fallback)
+[OK] Loaded model for malur
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_15"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_45 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_45 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_46 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_46 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_47 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_47 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_15 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_15 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for mulbagal (fallback)
+[OK] Loaded model for mulbagal
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_16"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_48 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_48 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_49 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_49 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_50 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_50 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_16 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_16 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for nelamangala (fallback)
+[OK] Loaded model for nelamangala
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_17"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_51 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_51 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_52 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_52 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_53 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_53 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_17 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_17 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for sidlaghatta (fallback)
+[OK] Loaded model for sidlaghatta
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_18"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_54 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_54 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_55 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_55 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_56 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_56 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_18 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_18 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for srinivaspur (fallback)
+[OK] Loaded model for srinivaspur
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_19"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_57 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_57 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_58 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_58 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_59 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_59 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_19 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_19 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for yelahanka (fallback)
+[OK] Loaded model for yelahanka
+[OK] Loaded 20 location models
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:61964 - "POST /predict/next-month HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:61958 - "GET /health HTTP/1.1" 200 OK
+ 
+Loading location-specific models...
+Found 20 models in models\locations
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for anekal (fallback)
+[OK] Loaded model for anekal
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_1"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_3 (LSTM)                   | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_3 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_4 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_4 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_5 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_5 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_1 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_1 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bagepalli (fallback)
+[OK] Loaded model for bagepalli
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_2"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_6 (LSTM)                   | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_6 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_7 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_7 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_8 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_8 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_2 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_2 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangalore_east (fallback)
+[OK] Loaded model for bangalore_east
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_3"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_9 (LSTM)                   | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_9 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_10 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_10 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_11 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_11 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_3 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_3 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangalore_north (fallback)
+[OK] Loaded model for bangalore_north
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_4"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_12 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_12 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_13 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_13 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_14 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_14 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_4 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_4 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangalore_south (fallback)
+[OK] Loaded model for bangalore_south
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_5"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_15 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_15 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_16 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_16 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_17 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_17 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_5 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_5 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangarapet (fallback)
+[OK] Loaded model for bangarapet
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_6"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_18 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_18 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_19 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_19 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_20 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_20 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_6 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_6 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for chikkaballapura (fallback)
+[OK] Loaded model for chikkaballapura
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_7"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_21 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_21 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_22 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_22 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_23 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_23 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_7 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_7 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for chintamani (fallback)
+[OK] Loaded model for chintamani
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_8"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_24 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_24 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_25 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_25 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_26 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_26 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_8 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_8 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for devanahalli (fallback)
+[OK] Loaded model for devanahalli
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_9"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_27 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_27 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_28 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_28 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_29 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_29 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_9 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_9 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for doddaballapura (fallback)
+[OK] Loaded model for doddaballapura
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_10"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_30 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_30 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_31 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_31 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_32 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_32 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_10 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_10 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for gauribidanur (fallback)
+[OK] Loaded model for gauribidanur
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_11"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_33 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_33 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_34 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_34 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_35 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_35 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_11 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_11 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for gudibanda (fallback)
+[OK] Loaded model for gudibanda
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_12"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_36 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_36 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_37 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_37 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_38 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_38 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_12 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_12 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for hosakote (fallback)
+[OK] Loaded model for hosakote
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_13"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_39 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_39 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_40 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_40 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_41 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_41 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_13 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_13 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for kolar (fallback)
+[OK] Loaded model for kolar
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_14"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_42 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_42 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_43 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_43 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_44 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_44 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_14 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_14 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for malur (fallback)
+[OK] Loaded model for malur
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_15"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_45 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_45 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_46 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_46 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_47 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_47 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_15 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_15 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for mulbagal (fallback)
+[OK] Loaded model for mulbagal
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_16"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_48 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_48 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_49 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_49 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_50 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_50 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_16 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_16 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for nelamangala (fallback)
+[OK] Loaded model for nelamangala
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_17"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_51 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_51 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_52 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_52 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_53 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_53 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_17 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_17 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for sidlaghatta (fallback)
+[OK] Loaded model for sidlaghatta
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_18"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_54 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_54 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_55 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_55 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_56 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_56 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_18 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_18 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for srinivaspur (fallback)
+[OK] Loaded model for srinivaspur
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_19"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_57 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_57 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_58 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_58 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_59 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_59 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_19 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_19 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for yelahanka (fallback)
+[OK] Loaded model for yelahanka
+[OK] Loaded 20 location models
+INFO:     127.0.0.1:62036 - "GET /health HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62043 - "POST /predict/next-month HTTP/1.1" 200 OK
+ 
+Loading location-specific models...
+Found 20 models in models\locations
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm (LSTM)                     | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout (Dropout)               | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_1 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_1 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_2 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_2 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape (Reshape)               | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for anekal (fallback)
+[OK] Loaded model for anekal
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_1"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_3 (LSTM)                   | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_3 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_4 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_4 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_5 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_5 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_1 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_1 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bagepalli (fallback)
+[OK] Loaded model for bagepalli
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_2"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_6 (LSTM)                   | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_6 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_7 (LSTM)                   | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_7 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_8 (LSTM)                   | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_8 (Dropout)             | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_2 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_2 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangalore_east (fallback)
+[OK] Loaded model for bangalore_east
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_3"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_9 (LSTM)                   | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_9 (Dropout)             | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_10 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_10 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_11 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_11 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_3 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_3 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangalore_north (fallback)
+[OK] Loaded model for bangalore_north
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_4"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_12 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_12 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_13 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_13 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_14 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_14 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_4 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_4 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangalore_south (fallback)
+[OK] Loaded model for bangalore_south
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_5"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_15 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_15 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_16 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_16 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_17 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_17 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_5 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_5 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for bangarapet (fallback)
+[OK] Loaded model for bangarapet
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_6"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_18 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_18 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_19 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_19 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_20 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_20 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_6 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_6 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for chikkaballapura (fallback)
+[OK] Loaded model for chikkaballapura
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_7"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_21 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_21 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_22 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_22 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_23 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_23 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_7 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_7 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for chintamani (fallback)
+[OK] Loaded model for chintamani
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_8"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_24 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_24 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_25 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_25 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_26 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_26 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_8 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_8 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for devanahalli (fallback)
+[OK] Loaded model for devanahalli
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_9"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_27 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_27 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_28 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_28 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_29 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_29 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_9 (Dense)                 | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_9 (Reshape)             | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for doddaballapura (fallback)
+[OK] Loaded model for doddaballapura
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_10"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_30 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_30 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_31 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_31 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_32 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_32 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_10 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_10 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for gauribidanur (fallback)
+[OK] Loaded model for gauribidanur
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_11"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_33 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_33 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_34 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_34 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_35 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_35 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_11 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_11 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for gudibanda (fallback)
+[OK] Loaded model for gudibanda
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_12"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_36 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_36 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_37 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_37 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_38 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_38 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_12 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_12 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for hosakote (fallback)
+[OK] Loaded model for hosakote
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_13"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_39 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_39 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_40 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_40 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_41 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_41 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_13 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_13 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for kolar (fallback)
+[OK] Loaded model for kolar
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_14"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_42 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_42 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_43 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_43 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_44 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_44 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_14 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_14 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for malur (fallback)
+[OK] Loaded model for malur
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_15"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_45 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_45 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_46 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_46 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_47 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_47 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_15 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_15 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for mulbagal (fallback)
+[OK] Loaded model for mulbagal
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_16"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_48 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_48 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_49 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_49 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_50 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_50 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_16 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_16 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for nelamangala (fallback)
+[OK] Loaded model for nelamangala
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_17"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_51 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_51 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_52 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_52 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_53 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_53 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_17 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_17 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for sidlaghatta (fallback)
+[OK] Loaded model for sidlaghatta
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_18"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_54 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_54 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_55 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_55 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_56 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_56 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_18 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_18 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for srinivaspur (fallback)
+[OK] Loaded model for srinivaspur
+Building LSTM model...
+[OK] Model built successfully
+Model: "sequential_19"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| lstm_57 (LSTM)                  | (None, 30, 64)         |        17,408 |
+|---------------------------------+------------------------+---------------|
+| dropout_57 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_58 (LSTM)                  | (None, 30, 64)         |        33,024 |
+|---------------------------------+------------------------+---------------|
+| dropout_58 (Dropout)            | (None, 30, 64)         |             0 |
+|---------------------------------+------------------------+---------------|
+| lstm_59 (LSTM)                  | (None, 32)             |        12,416 |
+|---------------------------------+------------------------+---------------|
+| dropout_59 (Dropout)            | (None, 32)             |             0 |
+|---------------------------------+------------------------+---------------|
+| dense_19 (Dense)                | (None, 90)             |         2,970 |
+|---------------------------------+------------------------+---------------|
+| reshape_19 (Reshape)            | (None, 30, 3)          |             0 |
++--------------------------------------------------------------------------+
+ Total params: 65,818 (257.10 KB)
+ Trainable params: 65,818 (257.10 KB)
+ Non-trainable params: 0 (0.00 B)
+[WARN] Loaded weights into rebuilt model for yelahanka (fallback)
+[OK] Loaded model for yelahanka
+[OK] Loaded 20 location models
+INFO:     127.0.0.1:62493 - "OPTIONS /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62494 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62502 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62509 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62514 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62518 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62522 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62529 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62533 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62538 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62542 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62542 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62546 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62589 - "POST /predict/next-month HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62888 - "OPTIONS /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62890 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62905 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:62909 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:63025 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:63029 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:63034 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:63038 - "POST /predict/next-month HTTP/1.1" 200 OK
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:63047 - "POST /predict/next-month HTTP/1.1" 200 OK

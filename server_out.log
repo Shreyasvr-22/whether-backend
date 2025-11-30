@@ -1,0 +1,3 @@
+[OK] Model loaded from models\lstm_weather_model.h5
+[OK] Loaded 1096 records from local CSV
+INFO:     127.0.0.1:59963 - "POST /predict/next-month HTTP/1.1" 500 Internal Server Error
